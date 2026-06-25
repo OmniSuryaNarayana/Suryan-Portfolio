@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 export async function GET(req: Request) {
   try {
     return new Response(JSON.stringify({ success: true, likes: { "1": 10, "2": 20 } }), {
