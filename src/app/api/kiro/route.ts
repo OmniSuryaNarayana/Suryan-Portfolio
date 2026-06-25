@@ -42,7 +42,7 @@ Answer in a friendly, helpful, and concise manner, always acting as his represen
           },
           { role: "user", content: message },
         ],
-        temperature: 0.7,
+        temperature: 0.6,
         max_tokens: 500,
       }),
     });
